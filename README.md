@@ -33,10 +33,10 @@ by the total quantity of N
 
 1. Initialize sample size
 
-~~~
+```{r}
 size <- 1000000000
 stdev <- 1
-~~~
+```
 2. Initialize counter
 ~~~
 counter <- 0
