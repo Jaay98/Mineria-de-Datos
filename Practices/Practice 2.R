@@ -78,3 +78,40 @@ unlist(l1) # a character vector
 l2 <- list(a = "a", b = as.name("b"), c = pi+2i)
 unlist(l2) # remains a list
 
+#13. 	Takes the absolute value of x
+
+abs(-4.7)	
+
+#14. Takes the logarithm of x with base y; if base is not specified, returns the natural logarithm
+
+log(5,base=9)
+
+
+#15. Returns the factorial of x (x!)
+
+factorial(7)
+
+
+#16.Functions can be used to find the lowest or highest number in a set:
+
+max(5, 10, 15)
+
+#17.
+
+min(5, 10, 15)
+
+
+#18 Function rounds a number upwards to its nearest integer
+
+ceiling(1.4)
+
+
+#19 Function rounds a number downwards to its nearest integer
+
+floor(1.4)
+
+#20.Uppercase
+data <- "Text"
+toupper(data)	
+
+

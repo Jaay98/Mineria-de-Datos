@@ -157,6 +157,42 @@ l2 <- list(a = "a", b = as.name("b"), c = pi+2i)
 unlist(l2) # remains a list
 ```
 
-13. 
+13. Takes the absolute value of x
+```{r}
+abs(-4.7)	
+```
+14. Takes the logarithm of x with base y; if base is not specified, returns the natural logarithm
+```{r}
+log(5,base=9)
+```
+
+15. Returns the factorial of x (x!)
+```{r}
+factorial(7)
+```
+16. Functions can be used to find the lowest or highest number in a set:
+```{r}
+max(5, 10, 15)
+```
+17. 
+```{r}
+min(5, 10, 15)
+```
+18. Function rounds a number upwards to its nearest integer
+```{r}
+ceiling(1.4)
+```
+
+19. Function rounds a number downwards to its nearest integer
+```{r}
+floor(1.4)
+```
+20. Uppercase
+```{r}
+data <- "Text"
+toupper(data)	
+```
+
+
 
 ##### Practice 3<a name="id3"></a>
