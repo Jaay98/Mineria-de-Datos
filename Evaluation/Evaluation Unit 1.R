@@ -4,7 +4,7 @@
 
 # Developers 
 # Alvarez Yanez Jose Alonso 
-# Briseno Raul
+# Briseno Cota Raul Omar
 
 
 #You should generate a scatter-plot that shows the
