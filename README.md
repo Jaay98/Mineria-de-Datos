@@ -716,9 +716,9 @@ stats[filter,]
 
 ##### Evaluation 1<a name="id6"></a>
 
-Developers 
- Alvarez Yanez Jose Alonso 
- Briseno Cota Raul Omar
+Developers:
+Alvarez Yanez Jose Alonso 
+Briseno Cota Raul Omar
 
 
 You should generate a scatter-plot that shows the
