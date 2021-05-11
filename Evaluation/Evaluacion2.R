@@ -23,3 +23,8 @@ filter_df <-df[filter,]
 
 head(filter_df)
 
+#Show graph
+
+u <- ggplot(filter_df, aes(x=Genre, y=GrossPor, color=Genre))
+
+u + geom_jitter() + geom_boxplot(size=1.2, alpha=0.5)
