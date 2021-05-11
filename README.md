@@ -110,3 +110,5 @@ u <- ggplot(filter_df, aes(x=Genre, y=GrossPor, color=Genre))
 
 u + geom_jitter() + geom_boxplot(size=1.2, alpha=0.5)
 ```
+
+![two image](https://github.com/Jaay98/Mineria-de-Datos/blob/Unit_2/Evaluation/Captura2.PNG)
