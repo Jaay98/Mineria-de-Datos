@@ -70,3 +70,43 @@ ggplot(data = TestData) + geom_point(mapping = aes(x = Sleep , y = School.and.un
 ```{r}
 ggplot(data = TestData) + geom_bar(mapping = aes(x = Homework, fill = Dish.washing))
 ```
+
+##### Evaluation 2<a name="id2"></a>
+
+# Recreate the code for the generation of the following graph
+![one image](https://github.com/Jaay98/Mineria-de-Datos/blob/Unit_2/Evaluation/Captura.PNG)
+
+# Export the library ggplot2
+```{r}
+library(ggplot2)
+```
+
+# Import the dataframe
+```{r}
+df <- read.csv(file.choose())
+head(df)
+```
+
+# Rename columns name
+```{r}
+colnames(df) <- c("Day_Week","Director","Genre","Title","Release_Date","Studio","Adjusted_Gross","Budget","Gross","IMDb_Rating","MovieLens_Rating","Overseas","Overseas%","Profit","Profit%","Runtime","US_dlls","GrossPor")
+```
+
+# Delete useles data
+```{r}
+filter <- (df$Genre=="action" | df$Genre=="adventure" | df$Genre=="animation" | df$Genre=="comedy" | df$Genre=="drama") & (df$Studio=="Buena Vista Studios" | df$Studio=="Fox" | df$Studio=="Paramount Pictures" | df$Studio=="Sony" | df$Studio=="Universal" | df$Studio=="WB")
+
+filter_df <-df[filter,]
+```
+
+# Show the new df
+```{r}
+head(filter_df)
+```
+
+# Show graph
+```{r}
+u <- ggplot(filter_df, aes(x=Genre, y=GrossPor, color=Genre))
+
+u + geom_jitter() + geom_boxplot(size=1.2, alpha=0.5)
+```
