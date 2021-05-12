@@ -25,6 +25,10 @@ head(filter_df)
 
 #Show graph
 
-u <- ggplot(filter_df, aes(x=Genre, y=GrossPor, color=Genre))
+u <- ggplot(filter_df, aes(x=Genre, y=GrossPor, color=Studio, size=Budget))
 
-u + geom_jitter() + geom_boxplot(size=1.2, alpha=0.5)
+u + geom_jitter(aes(color=Studio,size=Budget)) + geom_boxplot(size=0.5,alpha=0.5,color="Black",outlier.shape = NA)+ theme(
+  plot.title = element_text(color="Black", size=16, hjust = 0.5),
+  axis.title.x = element_text(color="purple", size=16),
+  axis.title.y = element_text(color="purple", size=16)
+)  +  ggtitle("Domestic Gross % by Genre") + ylab("Gross %US")  
