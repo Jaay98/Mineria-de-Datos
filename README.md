@@ -58,23 +58,26 @@ dfcare<-TestData[Personal_care,]
 ```{r}
 ggplot(data=dfcare)+ geom_point(mapping = aes(x =Personal.care , y =Household.management.and.help.family.member, color=SEX ))
 ```
+![one image](https://github.com/Jaay98/Mineria-de-Datos/blob/Unit_2/Practices/Captura.PNG)
 
 # Graphic 2
 # Relation between sleep  and school by country 
 ```{r}
 ggplot(data = TestData) + geom_point(mapping = aes(x = Sleep , y = School.and.university.except.homework )) + facet_wrap(~ GEO.ACL00, nrow = 2)
 ```
+![two image](https://github.com/Jaay98/Mineria-de-Datos/blob/Unit_2/Practices/Captura2.PNG)
 
 # Graphic 3
 # Relation between Homework  and school 
 ```{r}
 ggplot(data = TestData) + geom_bar(mapping = aes(x = Homework, fill = Dish.washing))
 ```
+![three image](https://github.com/Jaay98/Mineria-de-Datos/blob/Unit_2/Practices/Captura3.PNG)
 
 ##### Evaluation 2<a name="id2"></a>
 
 # Recreate the code for the generation of the following graph
-![one image](https://github.com/Jaay98/Mineria-de-Datos/blob/Unit_2/Evaluation/Captura.PNG)
+![four image](https://github.com/Jaay98/Mineria-de-Datos/blob/Unit_2/Evaluation/Captura.PNG)
 
 # Export the library ggplot2
 ```{r}
@@ -115,4 +118,4 @@ u + geom_jitter(aes(color=Studio,size=Budget)) + geom_boxplot(size=0.5,alpha=0.5
 )  +  ggtitle("Domestic Gross % by Genre") + ylab("Gross %US")  
 ```
 
-![two image](https://github.com/Jaay98/Mineria-de-Datos/blob/Unit_2/Evaluation/Captura2.PNG)
+![five image](https://github.com/Jaay98/Mineria-de-Datos/blob/Unit_2/Evaluation/Captura2.PNG)
