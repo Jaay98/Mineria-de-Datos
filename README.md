@@ -164,7 +164,7 @@ points(grid_set, pch = '.', col = ifelse(y_grid == 1, 'springgreen3', 'tomato'))
 points(set, pch = 21, bg = ifelse(set[, 3] == 1, 'green4', 'red3'))
 ```
 
-![one image](https://github.com/Jaay98/Mineria-de-Datos/blob/Unit_3/Practices/Practice1.PNG)
+![one image](https://github.com/Jaay98/Mineria-de-Datos/blob/Unit_3/Practices/Practice1.png)
 
 ##### Practice 2<a name="id2"></a>
 
