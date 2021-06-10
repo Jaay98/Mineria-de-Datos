@@ -360,7 +360,7 @@ plot(classifier)
 text(classifier, cex=0.6)
 ```
 
-![four image](https://github.com/Jaay98/Mineria-de-Datos/blob/Unit_3/Practices/Practica3-3.PNG)
+![four image](https://github.com/Jaay98/Mineria-de-Datos/blob/Unit_3/Practices/Practica3-3.png)
 
 ##### Practice 4<a name="id4"></a>
 
@@ -447,7 +447,7 @@ points(grid_set, pch = '.', col = ifelse(y_grid == 1, 'springgreen3',
 points(set, pch = 21, bg = ifelse(set[, 3] == 1, 'green4', 'red3'))
 ```
 
-![five image](https://github.com/Jaay98/Mineria-de-Datos/blob/Unit_3/Practices/practice4-1.PNG)
+![five image](https://github.com/Jaay98/Mineria-de-Datos/blob/Unit_3/Practices/practice4-1.png)
 
 # We read the ElemStatLearn library
 ```{r}
@@ -472,14 +472,14 @@ points(grid_set, pch = '.', col = ifelse(y_grid == 1, 'springgreen3',
 points(set, pch = 21, bg = ifelse(set[, 3] == 1, 'green4', 'red3'))
 ```
 
-![six image](https://github.com/Jaay98/Mineria-de-Datos/blob/Unit_3/Practices/practice4-2.PNG)
+![six image](https://github.com/Jaay98/Mineria-de-Datos/blob/Unit_3/Practices/practice4-2.png)
 
 # Classifying the trees
 ```{r}
 plot(classifier)
 ```
 
-![seven image](https://github.com/Jaay98/Mineria-de-Datos/blob/Unit_3/Practices/practice4-3.PNG)
+![seven image](https://github.com/Jaay98/Mineria-de-Datos/blob/Unit_3/Practices/practice4-3.png)
 
 ##### Evaluation 3<a name="id5"></a>
 
