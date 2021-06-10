@@ -325,6 +325,8 @@ points(grid_set, pch = '.', col = ifelse(y_grid == 1, 'springgreen3', 'tomato'))
 points(set, pch = 21, bg = ifelse(set[, 3] == 1, 'green4', 'red3'))
 ```
 
+![two image](https://github.com/Jaay98/Mineria-de-Datos/blob/Unit_3/Practices/Practica3-1.PNG)
+
 # Visualising the Test set results import library ElemStatLearn
 ```{r}
 library(ElemStatLearn)
@@ -350,11 +352,15 @@ points(grid_set, pch = '.', col = ifelse(y_grid == 1, 'springgreen3', 'tomato'))
 points(set, pch = 21, bg = ifelse(set[, 3] == 1, 'green4', 'red3'))
 ```
 
+![three image](https://github.com/Jaay98/Mineria-de-Datos/blob/Unit_3/Practices/Practica3-2.PNG)
+
 # Plotting the tree to visualize the results of Decision tree classifier
 ```{r}
 plot(classifier)
 text(classifier, cex=0.6)
 ```
+
+![four image](https://github.com/Jaay98/Mineria-de-Datos/blob/Unit_3/Practices/Practica3-3.PNG)
 
 ##### Practice 4<a name="id4"></a>
 
@@ -441,6 +447,8 @@ points(grid_set, pch = '.', col = ifelse(y_grid == 1, 'springgreen3',
 points(set, pch = 21, bg = ifelse(set[, 3] == 1, 'green4', 'red3'))
 ```
 
+![five image](https://github.com/Jaay98/Mineria-de-Datos/blob/Unit_3/Practices/practice4-1.PNG)
+
 # We read the ElemStatLearn library
 ```{r}
 library(ElemStatLearn)
@@ -464,10 +472,14 @@ points(grid_set, pch = '.', col = ifelse(y_grid == 1, 'springgreen3',
 points(set, pch = 21, bg = ifelse(set[, 3] == 1, 'green4', 'red3'))
 ```
 
+![six image](https://github.com/Jaay98/Mineria-de-Datos/blob/Unit_3/Practices/practice4-2.PNG)
+
 # Classifying the trees
 ```{r}
 plot(classifier)
 ```
+
+![seven image](https://github.com/Jaay98/Mineria-de-Datos/blob/Unit_3/Practices/practice4-3.PNG)
 
 ##### Evaluation 3<a name="id5"></a>
 
@@ -541,6 +553,8 @@ points(grid_set, pch = '.', col = ifelse(y_grid == 1, 'springgreen3', 'tomato'))
 points(set, pch = 21, bg = ifelse(set[, 3] == 1, 'green4', 'red3'))
 ```
 
+![eight image](https://github.com/Jaay98/Mineria-de-Datos/blob/Unit_3/Evaluation/Evaluation3-1.PNG)
+
 # Test set codign in parts an use the vector
 ```{r}
 set = test_set
@@ -556,3 +570,5 @@ contour(X1, X2, matrix(as.numeric(y_grid), length(X1), length(X2)), add = TRUE)
 points(grid_set, pch = '.', col = ifelse(y_grid == 1, 'springgreen3', 'tomato'))
 points(set, pch = 21, bg = ifelse(set[, 3] == 1, 'green4', 'red3'))
 ```
+
+![nine image](https://github.com/Jaay98/Mineria-de-Datos/blob/Unit_3/Evaluation/Evaluation3-2.PNG)
