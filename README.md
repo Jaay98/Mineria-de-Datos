@@ -47,6 +47,7 @@ head(dataset)
 ```{r}
 ggplot(dataset, aes(petal_length, petal_width )) + geom_point(aes(col=species), size=4)
 ```
+![one image](https://github.com/Jaay98/Mineria-de-Datos/blob/Unit_4/Evaluation/Grafica1.PNG)
 
 #### Set the center (means the number of groups we want to cluster), in this case we are going to use 3
 ```{r}
@@ -65,3 +66,4 @@ table(irisCluster$cluster, dataset$species)
 library(cluster)
 clusplot(iris, irisCluster$cluster, color=T, shade=T, labels=0, lines=0)
 ```
+![two image](https://github.com/Jaay98/Mineria-de-Datos/blob/Unit_4/Evaluation/Grafica2.PNG)
